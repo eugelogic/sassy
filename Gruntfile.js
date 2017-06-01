@@ -13,13 +13,13 @@ module.exports = function(grunt){
        dev: {
          options: {
            style: 'expanded',
-           sourcemap: 'none',
+           sourcemap: 'none'
          },
          // define where the content comes from and where it's going to go
          // the syntax works the other way around,
          // first define where you want the content to go
          // and then specify where the content is coming from
-         file: {
+         files: {
            'compiled/style.css': 'sass/style.scss',
          }
        },
@@ -27,14 +27,14 @@ module.exports = function(grunt){
        dist: {
          options: {
            style: 'compressed',
-           sourcemap: 'none',
+           sourcemap: 'none'
          },
          // define where the content comes from and where it's going to go
          // the syntax works the other way around,
          // first define where you want the content to go
          // and then specify where the content is coming from
-         file: {
-           'compiled/style.css': 'sass/style-min.scss',
+         files: {
+           'compiled/style-min.css': 'sass/style.scss',
          }
        }
      }
@@ -55,5 +55,5 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   // register the Watch task
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default',['watch']);
 }
