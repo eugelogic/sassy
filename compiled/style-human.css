@@ -828,16 +828,13 @@ object {
 # Flex
 --------------------------------------------------------------*/
 .site-content {
-  display: -ms-flexbox;
   display: flex;
 }
 
 .content-area {
-  -ms-flex: 2;
-      flex: 2;
+  flex: 2;
 }
 
 .site-content .widget-area {
-  -ms-flex: 1;
-      flex: 1;
+  flex: 1;
 }
