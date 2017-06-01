@@ -1,4 +1,4 @@
-module.exports = function(grunt){
+module.exports = function (grunt) {
 
   grunt.initConfig({
 
@@ -20,7 +20,7 @@ module.exports = function(grunt){
          // first define where you want the content to go
          // and then specify where the content is coming from
          files: {
-           'compiled/style.css': 'sass/style.scss',
+           'compiled/style.css': 'sass/style.scss'
          }
        },
        // distribution task, like the "dev" task but with compressed stylesheet version to be shipped with the theme
@@ -34,10 +34,10 @@ module.exports = function(grunt){
          // first define where you want the content to go
          // and then specify where the content is coming from
          files: {
-           'compiled/style-min.css': 'sass/style.scss',
+           'compiled/style-min.css': 'sass/style.scss'
          }
        }
-     }
+     },
 
     /**
      * Watch task
@@ -55,5 +55,5 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   // register the Watch task
-  grunt.registerTask('default',['watch']);
-}
+  grunt.registerTask('default', ['watch']);
+};
