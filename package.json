@@ -1,0 +1,29 @@
+{
+  "name": "sassy",
+  "version": "1.0.0",
+  "description": "A sassy Underscores-based theme.",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugelogic/sassy.git"
+  },
+  "keywords": [
+    "sass",
+    "grunt",
+    "auotprefixer",
+    "underscores",
+    "wordpress"
+  ],
+  "author": "Eugene Molari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugelogic/sassy/issues"
+  },
+  "homepage": "https://github.com/eugelogic/sassy#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
