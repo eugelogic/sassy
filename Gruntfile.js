@@ -13,7 +13,7 @@ module.exports = function(grunt){
        dev: {
          options: {
            style: 'expanded',
-           sourcemap: 'none'
+           sourcemap: 'none',
          },
          // define where the content comes from and where it's going to go
          // the syntax works the other way around,
@@ -27,7 +27,7 @@ module.exports = function(grunt){
        dist: {
          options: {
            style: 'compressed',
-           sourcemap: 'none'
+           sourcemap: 'none',
          },
          // define where the content comes from and where it's going to go
          // the syntax works the other way around,
